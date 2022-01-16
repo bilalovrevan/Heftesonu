@@ -1,0 +1,304 @@
+body{
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+}
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+     ;
+}
+.flag{
+    position: relative  ;
+    left: 1015px;
+    width: 30px;
+    height: 20px;
+    bottom: 15px;
+}
+#flight{
+    position: relative;
+    left: 200px;
+    font-size: 20px;
+}
+#ticket{
+    
+    position: relative;
+    left: 400px;
+    font-size: 20px;
+}
+#about{
+    
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+}
+#contact{
+    
+    position: relative;
+    left: 800px;
+    font-size: 20px;
+}
+.arrowright{
+    position: relative;
+    left: 160px;
+    bottom: 60px;
+}
+.rightinfo{
+    position: relative;
+    left: 250px;
+    bottom: 130px;
+}
+.priceinfo{
+    position: relative;
+    left: 850px;
+    bottom: 240px;
+    font-size: 25px;
+}
+.price{
+    color: #02b3dd;
+    font-size: 24px;
+}
+.flght{
+    font-weight: bold;
+    font-size: 20px;
+    color: #023462;
+}
+.date2{
+    font-weight: bold;
+    font-size: 14px;
+    color: #023462;
+}
+.gyd1200{
+    font-weight: bold;
+    font-size: 20px;
+    color: #023462;
+}
+.baku{
+    font-weight: bold;
+    font-size: 14px;
+    color: #023462;
+}
+.firstclass{
+    font-size: 20px;
+    color: #023462;
+}
+.date1{
+    font-weight: bold;
+    font-size: 14px;
+    color: #023462;
+}
+.lhr1400{
+    font-weight: bold;
+    font-size: 20px;
+    color: #023462;
+}
+.london{
+    font-weight: bold;
+    font-size: 14px;
+    color: #023462;
+}
+.count{
+    font-size: 20px;
+    color: #023462;
+}
+#passlogo{
+    position: relative;
+    bottom: 200px;
+    right: 30px;
+}
+.passenger{
+    position: relative;
+    bottom: 293px;
+    left: 50px;
+}
+.lblsurname{
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#surname{
+    border-radius: 5px;
+    position: relative;
+    bottom: 250px;
+    left: 110px;
+    width: 250px;
+    height: 30px;
+}
+
+.lblname{
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#name{
+    border-radius: 5px;
+    position: relative;
+    bottom: 250px;
+    left: 410px;
+    width: 250px;
+    height: 30px;
+}
+.lblgender{
+    position: relative;
+    bottom: 180px;
+    left: -535px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.gender{
+    border-radius: 5px;
+    position: relative;
+    bottom: 180px;
+    left: -525px;
+    width: 250px;
+    height: 30px;
+}
+.date{
+    color: black;
+    position: relative;
+    bottom: 177px;
+    right: 287px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#datebirth{
+    border-radius: 5px;
+    position: relative;
+    bottom: 210px;
+    left: 808px;
+    width: 250px;
+    height: 30px;
+}
+.pasport{
+    position: relative;
+    bottom: 140px;
+    right: 208px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pasporttype{
+    border-radius: 5px;
+    position: relative;
+    bottom: 140px; 
+    right: 200px; 
+    width: 250px;
+    height: 30px;
+}
+.docno{
+    position: relative;
+    bottom: 140px;
+    left: 28px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#docid{
+    border-radius: 5px;
+    position: relative;
+    bottom: 140px;  
+    left: 35px;
+    width: 250px;
+    height: 30px;
+}
+.countryname{
+    position: relative;
+    bottom: 70px;
+    right: 970px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#country{
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;  
+    left: 190px;
+    width: 250px;
+    height: 30px;
+}
+.dateexpiredoc{
+    position: relative;
+    bottom: 100px;
+    left: 440px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#dateexpire{
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;  
+    left: 450px;
+    width: 250px;
+    height: 30px;
+}
+.azalmile{
+    position: relative;
+    bottom: 35px;
+    right: 698px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#mile{
+    border-radius: 5px;
+    position: relative;
+    bottom: 35px;  
+    right: 685px;
+    width: 250px;
+    height: 30px;
+}
+.cardnumber{
+    position: relative;
+    bottom: 35px;
+    right: 450px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#cardnum{
+    border-radius: 5px;
+    position: relative;
+    bottom: 65px;  
+    left: 810px;
+    width: 250px;
+    height: 30px;
+}
+.cardexpiredate{
+    position: relative;
+    bottom: 2px;
+    right: 230px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#cardexpire{
+    border-radius: 5px;
+    position: relative;
+    bottom: 5px;  
+    right: 210px;
+    width: 250px;
+    height: 30px;
+}
+.cvvkod{
+    position: relative;
+    bottom: 2px;
+    left: 95px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#cvv{
+    border-radius: 5px;
+    position: relative;
+    bottom: 5px;  
+    right: -110px;
+    width: 250px;
+    height: 30px;
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: -100px;
+    right: 400px;
+    background-color: #023462;
+    
+    
+}
