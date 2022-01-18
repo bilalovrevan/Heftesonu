@@ -1,6 +1,8 @@
 body{
     overflow-x: hidden;
     font-family: Roboto, sans-serif;
+    height: 1500px;
+    display: flex;
 }
 .header{
     padding-left: 100px;
@@ -235,7 +237,7 @@ body{
 .azalmile{
     position: relative;
     bottom: 35px;
-    right: 698px;
+    right: 573px;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -243,14 +245,14 @@ body{
     border-radius: 5px;
     position: relative;
     bottom: 35px;  
-    right: 685px;
+    right: 560px;
     width: 250px;
     height: 30px;
 }
 .cardnumber{
     position: relative;
-    bottom: 35px;
-    right: 450px;
+    bottom: 25px;
+    right: 320px;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -299,6 +301,18 @@ body{
     bottom: -100px;
     right: 400px;
     background-color: #023462;
+}
+.ticketinfo{
+    position: sticky;
+    z-index: 3;
+    height: 140px;
+    top: 0px;
+    background-color: white
     
-    
+}
+summary{
+    height: auto;
+}
+.mainpage{
+    margin-top: 200px;
 }

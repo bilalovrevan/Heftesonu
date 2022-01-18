@@ -31,7 +31,6 @@
                     <div class="gyd1200"> 12:00 GYD <br></div>
                     <div class="baku"> Baku <br></div>
                     <div class="firstclass"> First class </div>
-
                 </div>
                 <div class="arrowright" >
                     <img src="https://www.pngrepo.com/png/129805/512/plane-facing-right.png" alt="aRRow" style="width: 50px;">
@@ -48,55 +47,57 @@
                     <div class="price"> 3 448.83 AZN <br></div>
                     for all passengers
                 </div>
-
+                
             </summary>
-            <img id="passlogo" src="Docs/Image/logo-area-vacation-package-tour-brand.jpg" alt="passengerlogo" style="width: 100px;">
-            <h1 class="passenger">Passenger</h1>
-            <section class="formclass">
-                <form action="success.html">
-                    <div>
-                        <label class="lblsurname" for="surname">
-                            <span>Surname</span>
-                        </label>
-                        <input type="text" for="surname" id="surname" ng-pattern-restrict="^[A-Za-z]*$" required="Enter your surname">
-                        <label class="lblname" for="name">
-                            <span>Name</span>
-                        </label>
-                        <input type="text" for="name" id="name" ng-pattern-restrict="^[A-Za-z]*$" required="Enter your name">
-                        <label class="lblgender" for="gender">Gender</label>
-                        <select  class="gender" required=""><option value="? undefined ?" selected="selected"></option>
-                            <option value="M" class="male">Male</option>
-                            <option value="F" class="female">Female</option>
-                        </select>
-                        <label class="date" for="datebirth">Date of birth</label>
-                        <input type="date" name="datebirth" id="datebirth" >
-                        
-                        <label class="pasport" for="pasporttype">Document type</label>
-                        <select  class="pasporttype" required="Enter your passport type">
-                            <option value="?" selected="selected"></option>
-                            <option value="IdentificationDocument" class="id">Identification document</option>
-                            <option value="GreenCard" class="greencard">Green card</option>
-                            <option value="Passport" class="passport">Passport</option>
-                        </select>
-                        <label class="docno" for="docid">Document No</label>
-                        <input type="text" name="docid" id="docid" required="Enter your Document No">
-                        <label class="countryname" for="country">Country name</label>
-                        <input type="text" name="country" id="country" required="Enter your country name">
-                        <label class="dateexpiredoc" for="dateexpire">Date expire</label>
-                        <input type="date" name="dateexpire" id="dateexpire" required="Enter date expire">
-                        <label class="azalmile" for="mile">Azal miles card (not required)</label>
-                        <input type="text" name="mile" id="mile">
-                        <label class="cardnumber" for="cardnum">Card number</label>
-                        <input type="number" name="cardnum" id="cardnum" required="Enter your card number">
-                        <label class="cardexpiredate" for="cardexpire">Card expire date</label>
-                        <input type="date" for="cardexpire" id="cardexpire" required="Enter your card expire date">
-                        <label class="cvvkod" for="cvv">CVV</label>
-                        <input type="number" name="cvv" id="cvv" required="Enter cvv" pattern="[0-9]{3}">
-                        <input class="submit" type="submit" value="BUY" style="color: white;" >
-                    </div>
-                </form>
-            </section>
-
-        </div>
+            <div class="mainpage"><img id="passlogo" src="Docs/Image/logo-area-vacation-package-tour-brand.jpg" alt="passengerlogo" style="width: 100px;">
+                <h1 class="passenger">Passenger</h1>
+                <section class="formclass">
+                    <form action="success.html">
+                        <div>
+                            <label class="lblsurname" for="surname">
+                                <span>Surname</span>
+                            </label>
+                            <input type="text" for="surname" id="surname" ng-pattern-restrict="^[A-Za-z]*$" required="Enter your surname">
+                            <label class="lblname" for="name">
+                                <span>Name</span>
+                            </label>
+                            <input type="text" for="name" id="name" ng-pattern-restrict="^[A-Za-z]*$" required="Enter your name">
+                            <label class="lblgender" for="gender">Gender</label>
+                            <select  class="gender" required=""><option value="? undefined ?" selected="selected"></option>
+                                <option value="M" class="male">Male</option>
+                                <option value="F" class="female">Female</option>
+                            </select>
+                            <label class="date" for="datebirth">Date of birth</label>
+                            <input type="date" name="datebirth" id="datebirth" >
+                            
+                            <label class="pasport" for="pasporttype">Document type</label>
+                            <select  class="pasporttype" required="Enter your passport type">
+                                <option value="?" selected="selected"></option>
+                                <option value="IdentificationDocument" class="id">Identification document</option>
+                                <option value="GreenCard" class="greencard">Green card</option>
+                                <option value="Passport" class="passport">Passport</option>
+                            </select>
+                            <label class="docno" for="docid">Document No</label>
+                            <input type="text" name="docid" id="docid" required="Enter your Document No">
+                            <label class="countryname" for="country">Country name</label>
+                            <input type="text" name="country" id="country" required="Enter your country name">
+                            <label class="dateexpiredoc" for="dateexpire">Date expire</label>
+                            <input type="date" name="dateexpire" id="dateexpire" required="Enter date expire">
+                            <label class="azalmile" for="mile">Azal miles card</label>
+                            <input type="text" name="mile" id="mile">
+                            <label class="cardnumber" for="cardnum">Card number</label>
+                            <input type="number" name="cardnum" id="cardnum" required="Enter your card number">
+                            <label class="cardexpiredate" for="cardexpire">Card expire date</label>
+                            <input type="date" for="cardexpire" id="cardexpire" required="Enter your card expire date">
+                            <label class="cvvkod" for="cvv">CVV</label>
+                            <input type="number" name="cvv" id="cvv" required="Enter cvv" pattern="[0-9]{3}">
+                            <input class="submit" type="submit" value="BUY" style="color: white;" >
+                        </div>
+                    </form>
+                </section>
+            </div>
+    </div>
+            
+        
     </body>
 </html>
